@@ -1,7 +1,6 @@
 require "test_helper"
 
 class MicropostTest < ActiveSupport::TestCase
-
   def setup
     @user = users(:michael)
     # This code is not idiomatically correct.

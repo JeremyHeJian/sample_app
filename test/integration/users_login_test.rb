@@ -42,6 +42,7 @@ class ValidLoginTest < ValidLogin
   end
 
   test "redirect after login" do
+    # Simulate a user clicking logout in a second window.
     follow_redirect!
     assert_template 'users/show'
     assert_select "a[href=?]", login_path, count: 0

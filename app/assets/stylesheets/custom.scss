@@ -102,6 +102,7 @@ footer {
     }
   }
 }
+
 @media (max-width: 800px) {
   footer {
     small {
@@ -119,8 +120,6 @@ footer {
     }
   }
 }
-
-/* miscellaneous */
 
 .debug_dump {
   clear: both;
@@ -194,6 +193,12 @@ input {
   }
 }
 
+/* Dropdown menu */
+
+.dropdown-menu.active {
+  display: block;
+}
+
 .checkbox {
   margin-top: -10px;
   margin-bottom: 10px;
@@ -206,12 +211,6 @@ input {
 #session_remember_me {
   width: auto;
   margin-left: 0;
-}
-
-/* Dropdown menu */
-
-.dropdown-menu.active {
-  display: block;
 }
 
 /* Users index */
